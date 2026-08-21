@@ -1,0 +1,10 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+}
+
+h1,
+h2 {
+  color: greenyellow;
+  text-shadow: 2px 2px black;
+}
