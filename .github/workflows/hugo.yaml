@@ -118,6 +118,8 @@ jobs:
           hugo build \
             --gc \
             --minify \
+            --source quickstart \
+            --destination "${{ github.workspace }}/public" \
             --baseURL "${{ steps.pages.outputs.base_url }}/" \
             --cacheDir "${{ runner.temp }}/.cache/hugo"
 
