@@ -16,3 +16,7 @@ theme = 'austere'
     name = "About"
     pageRef = "/about"
     weight = 3
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
